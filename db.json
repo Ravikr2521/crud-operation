@@ -1,0 +1,82 @@
+{
+  "employee": [
+    {
+      "employee_name": "Ravi",
+      "employee_email": "mainhibtaunga.01@gmail.com",
+      "employee_age": "21",
+      "employee_salary": "500000",
+      "id": 30
+    },
+    {
+      "employee_name": "pandey",
+      "employee_email": "gavhv@gmail.com",
+      "employee_age": "34",
+      "employee_salary": "850",
+      "id": 31
+    },
+    {
+      "employee_name": "rahul",
+      "employee_id": "",
+      "employee_email": "nknihs@gmail.com",
+      "employee_age": "34",
+      "employee_salary": "2333",
+      "id": 32
+    },
+    {
+      "employee_name": "ambani",
+      "employee_id": "",
+      "employee_email": "jio@gmail.com",
+      "employee_age": "44",
+      "employee_salary": "99856400",
+      "id": 33
+    },
+    {
+      "employee_name": "akshay",
+      "employee_id": "",
+      "employee_email": "akshay123@gmail.com",
+      "employee_age": "34",
+      "employee_salary": "25000",
+      "id": 37
+    },
+    {
+      "employee_name": "virat",
+      "employee_id": "",
+      "employee_email": "virat23@gmail.com",
+      "employee_age": "40",
+      "employee_salary": "62500",
+      "id": 38
+    },
+    {
+      "employee_name": "Kumar",
+      "employee_id": "",
+      "employee_email": "Ravi21@gmail.com",
+      "employee_age": "35",
+      "employee_salary": "32000",
+      "id": 39
+    },
+    {
+      "employee_name": "don",
+      "employee_id": "",
+      "employee_email": "ravik46552@gmail.com",
+      "employee_age": "30",
+      "employee_salary": "7300",
+      "id": 40
+    },
+    {
+      "employee_name": "salman",
+      "employee_id": "",
+      "employee_email": "salu123@gmail.com",
+      "employee_age": "55",
+      "employee_salary": "65321",
+      "id": 44
+    },
+    {
+      "employee_name": "chomu",
+      "employee_id": "",
+      "employee_email": "chomu@gmail.com",
+      "employee_age": "20",
+      "employee_salary": "15000",
+      "id": 45
+    }
+  ]
+}
