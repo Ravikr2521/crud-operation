@@ -19,11 +19,11 @@ export default function View(props){
 
   
    
-return(<>
+return(
 
-
-
-<Modal show={props.show} onHide={props.f1}>
+<>
+ 
+ <Modal show={props.show} onHide={props.f1}>
         <Modal.Header closeButton>
           <Modal.Title>Employee Data</Modal.Title>
         </Modal.Header>
@@ -43,9 +43,11 @@ return(<>
         </Modal.Footer>
       </Modal>
 
-</>)
+</>)   
 
 }
+
+
 
 
 

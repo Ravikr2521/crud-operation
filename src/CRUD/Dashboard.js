@@ -13,13 +13,14 @@ export default function Dash(){
 
     useEffect(()=>
     {
-        loaduser();
+        loaduser(); 
     },[])
     
    
         
     const loaduser  = () => {
        fetch('http://localhost:3002/employee').then((response) => response.json().then((data) => {
+           
            SetEmploy(data)
        }))  
     }
@@ -39,8 +40,8 @@ export default function Dash(){
             );
     }
 
-
 console.log(Employ)
+
 
     const newData = () => {
         loaduser();
@@ -52,7 +53,8 @@ console.log(Employ)
         let value=e.target.value;
         setSort(value);
         
-        fetch(`http://localhost:3002/employee?_sort=${value}&_order=asc&_limit=5`).then((response) => response.json().then((data) => {
+        fetch(`http://localhost:3002/employee?_sort=${value}&_order=asc&_limit=5`)
+        .then((response) => response.json().then((data) => {
             SetEmploy(data)
         }))  
 
@@ -135,6 +137,7 @@ console.log(Employ)
                             </tr>
                            )}
                         </tbody>
+                        
                     </table>
 
 

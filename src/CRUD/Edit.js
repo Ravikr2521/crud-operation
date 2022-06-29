@@ -3,7 +3,8 @@ import { Modal,Button } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './crud.css';
-export default function Edituser(props){
+export default function Edituser(props)
+{
    const [show,setShow]=useState(true);
    const handleclose=()=>setShow(false);
 

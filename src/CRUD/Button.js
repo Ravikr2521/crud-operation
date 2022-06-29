@@ -21,13 +21,13 @@ export default function Btn(props) {
             <button  onClick={handleShow} className="add_data_btn">
                 Create New Record
             </button>
-            <Add show={show} f1 = {handleClose} call={props.call} formSubmit = {formData}/>
+            <Add show={show} f1 = {handleClose} call={props.call} />
             </div>
         </>
 
     )
-
 }
+
 export function Editdata(props){
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);

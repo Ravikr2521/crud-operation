@@ -72,7 +72,7 @@ return(
                         <Button variant="secondary" onClick={() => props.f1()}>
                             Close
                         </Button>
-                        <Button variant="primary" type="submit" >
+                        <Button variant="primary" type="submit" > 
                             Add Data
                         </Button>
 
